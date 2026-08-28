@@ -4,7 +4,7 @@ Welcome to the repository for my personal portfolio website. I am an **Erasmus M
 
 This repository houses the front-end code for my live portfolio, which highlights my transition of complex mechanical concepts into optimized, manufacturable realities.
 
-**🔗 [View the Live Website Here](https://Usama-Tariq.github.io)**
+**🔗 [View the Live Website Here](https://tariq-usama.github.io/)**
 
 ### Key Features of this Repository
 * **Live Telemetry Simulation:** Custom vanilla JavaScript implementation of a 3-Degree-of-Freedom (3-DOF) PID closed-loop kinematic monitor, simulating real-time DAQ hardware feedback.
