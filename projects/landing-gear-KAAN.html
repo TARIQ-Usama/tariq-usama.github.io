@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -199,3 +200,206 @@
   <script src="../assets/project-details.js"></script>
 </body>
 </html>
+=======
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-96x96.png">
+  <title>KAAN 5th Gen Fighter - Landing Gear — Muhammad Usama Tariq</title>
+  <meta name="description" content="Public portfolio summary of aircraft structural design, GD&amp;T and ANSYS verification work at Turkish Aerospace Industries.">
+  <meta property="og:title" content="KAAN 5th Gen Fighter - Landing Gear — Muhammad Usama Tariq">
+  <meta property="og:description" content="Structural design, analysis and manufacturing support within the boundaries of programme confidentiality.">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=IBM+Plex+Sans:wght@300;400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/project-details.css">
+</head>
+<body data-theme="amber">
+  <div class="read-progress" aria-hidden="true"></div>
+  <a class="skip" href="#project-story">Skip to project details</a>
+  <header class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="../index.html" aria-label="Muhammad Usama Tariq — home"><span class="brand-mark"><span class="brand-dot"></span></span><span>Muhammad Usama Tariq</span></a>
+      <nav class="nav-actions" aria-label="Project navigation"><a href="../index.html#work">Selected Projects</a><a href="../index.html#experience">Experience</a><a class="nav-contact" href="../index.html#contact">Get in Touch →</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="../index.html#work">Projects</a><span>/</span><span>Aerostructures</span></div>
+        <div class="hero-grid">
+          <div class="reveal">
+            <span class="eyebrow">Aerostructures · Topology Optimization</span>
+            <h1>KAAN 5th Gen Fighter - Landing Gear</h1>
+            <p class="hero-lede">Iterative design optimization of the landing gear assembly for the 5th-gen platform-covering Siemens NX modelling, mass reduction analysis, and technical design proposals.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://www.tusas.com/en/products/aircraft/indigenous-development/tf" target="_blank" rel="noopener">Programme Overview ↗</a>
+              <a class="button secondary" href="../assets/documents/TAI_Certificate.pdf" target="_blank" rel="noopener">Experience Letter ↗</a>
+            </div>
+          </div>
+          <div class="hero-visual reveal" data-label="TF-KAAN · topology optimization">
+  <span class="visual-index">PROJECT 02 / 06</span>
+  
+  <svg viewBox="0 -75 520 350" role="img" aria-label="Topology Optimization of KAAN Landing Gear">
+    <defs>
+      <linearGradient id="stress-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#FF5252" />
+        <stop offset="10%" stop-color="#FF5252" />
+        <stop offset="25%" stop-color="#FFB454" />
+        <stop offset="40%" stop-color="#45E3B8" />
+        <stop offset="80%" stop-color="#45E3B8" />
+        <stop offset="90%" stop-color="#FFB454" />
+        <stop offset="100%" stop-color="#FF5252" />
+      </linearGradient>
+
+      <linearGradient id="scale-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#45E3B8" />
+        <stop offset="50%" stop-color="#FFB454" />
+        <stop offset="100%" stop-color="#FF5252" />
+      </linearGradient>
+    </defs>
+
+    <!-- Sub-page Specific Label -->
+    <text x="51" y="0" font-family="IBM Plex Mono,monospace" font-size="12" fill="#E7EEF8" letter-spacing=".06em">TOPOLOGY OPTIMIZATION · MASS REDUCTION</text>
+
+    <!-- ==========================================
+         LEFT SIDE: The Original Design Space 
+         ========================================== -->
+    <text x="120" y="45" font-family="IBM Plex Mono,monospace" font-size="8" fill="#9fb1cb" text-anchor="middle">mass = 100%</text>
+    <g stroke="#162f45" stroke-width="1" stroke-linejoin="round">
+      <polygon points="120,60 160,80 120,100 80,80" fill="#FF5252" opacity="0.9" />
+      <polygon points="80,80 120,100 120,140 80,120" fill="url(#stress-grad)" opacity="0.9" />
+      <polygon points="120,100 160,80 160,120 120,140" fill="url(#stress-grad)" opacity="0.9" />
+      <path d="M 90,85 L 90,125 M 100,90 L 100,130 M 110,95 L 110,135" stroke="#111111" stroke-width="0.5" opacity="0.4" />
+      <path d="M 80,90 L 120,110 M 80,100 L 120,120 M 80,110 L 120,130" stroke="#111111" stroke-width="0.5" opacity="0.4" />
+      <path d="M 130,95 L 130,135 M 140,90 L 140,130 M 150,85 L 150,125" stroke="#111111" stroke-width="0.5" opacity="0.4" />
+      <path d="M 120,110 L 160,90 M 120,120 L 160,100 M 120,130 L 160,110" stroke="#111111" stroke-width="0.5" opacity="0.4" />
+    </g>
+    <text x="120" y="165" font-family="IBM Plex Mono,monospace" font-size="9" fill="#9fb1cb" text-anchor="middle">DESIGN SPACE</text>
+
+    <!-- ==========================================
+         CENTER: Data Flow & Stress Scale Legend
+         ========================================== -->
+    <!-- Dashed line for visual flow, but static -->
+    <line x1="185" y1="100" x2="330" y2="100" stroke="#FFB454" stroke-width="1.5" stroke-dasharray="6 4" />
+    <polygon points="335,100 325,95 325,105" fill="#FFB454" />
+    <!-- Static text -->
+    <text x="260" y="90" font-family="IBM Plex Mono,monospace" font-size="8" fill="#FFB454" text-anchor="middle" letter-spacing=".06em">OPTIMIZED</text>
+    
+    <g transform="translate(230, 160)">
+      <rect x="0" y="0" width="60" height="4" fill="url(#scale-grad)" rx="2" />
+      <text x="-5" y="4" font-family="IBM Plex Mono,monospace" font-size="8" fill="#9fb1cb" text-anchor="end">σ<tspan dy="2" font-size="6">min</tspan></text>
+      <text x="65" y="4" font-family="IBM Plex Mono,monospace" font-size="8" fill="#9fb1cb" text-anchor="start">σ<tspan dy="2" font-size="6">max</tspan></text>
+    </g>
+
+    <!-- ==========================================
+         RIGHT SIDE: The Final Organic Structure
+         ========================================== -->
+    <text x="400" y="45" font-family="IBM Plex Mono,monospace" font-size="8" fill="#45E3B8" text-anchor="middle">mass = 43.2%</text>
+    <g stroke="#21405c" stroke-dasharray="2 2" stroke-width="1.5" fill="none">
+      <polygon points="400,60 440,80 400,100 360,80" />
+      <polygon points="360,80 400,100 400,140 360,120" />
+      <polygon points="400,100 440,80 440,120 400,140" />
+    </g>
+    <g stroke="#162f45" stroke-width="1" stroke-linejoin="round">
+      <polygon points="400,60 440,80 400,100 360,80" fill="#FF5252" opacity="0.9" />
+      <path d="M 360,80 C 365,95 365,110 360,120 L 370,125 C 380,115 385,105 400,100 Z" fill="url(#stress-grad)" opacity="0.9" />
+      <path d="M 400,100 C 395,115 395,130 400,140 L 410,135 C 405,115 415,105 440,80 Z" fill="url(#stress-grad)" opacity="0.9" />
+      <path d="M 366,84 C 370,100 370,115 366,122" fill="none" stroke="#111111" stroke-width="0.5" opacity="0.4"/>
+      <path d="M 395,102 C 395,115 395,130 395,137" fill="none" stroke="#111111" stroke-width="0.5" opacity="0.4"/>
+      <path d="M 434,84 C 430,100 430,115 434,122" fill="none" stroke="#111111" stroke-width="0.5" opacity="0.4"/>
+    </g>
+    <text x="400" y="165" font-family="IBM Plex Mono,monospace" font-size="9" fill="#45E3B8" text-anchor="middle">OPTIMIZED STRUCTURE</text>
+  </svg>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="facts-bar"><div class="wrap facts">
+      <div class="fact"><span class="fact-label">Period</span><span class="fact-value">2024</span></div>
+      <div class="fact"><span class="fact-label">Organisation</span><span class="fact-value">Turkish Aerospace Industries</span></div>
+      <div class="fact"><span class="fact-label">My role</span><span class="fact-value">Structural Design Intern</span></div>
+      <div class="fact"><span class="fact-label">Toolchain</span><span class="fact-value">Siemens NX · GD&amp;T</span></div>
+    </div></div>
+
+    <div class="project-main" id="project-story">
+      <div class="wrap content-grid">
+        <aside class="toc" aria-label="On this page">
+          <div class="toc-label">On this page</div>
+          <nav><a href="#overview">Overview</a><a href="#contribution">My Contribution</a><a href="#approach">Workflow</a><a href="#team">Contributors</a><a href="#results">Results</a></nav>
+          <p class="toc-note">This page intentionally contains only non-confidential responsibilities and public programme context.</p>
+        </aside>
+
+        <article class="story">
+          <section class="content-section reveal" id="overview">
+            <div class="section-kicker"><span>01</span>Project overview</div>
+            <h2>Optimizing structural performance within defined assembly envelopes.</h2>
+            <p class="lead">My work sat at the intersection of structural performance, manufacturability, and mass reduction targets. Using baseline reference models, the objective was to apply topology optimization to achieve feasible mass and stress targets, ensuring the final CAD model remained viable for the facility.</p>
+            <div class="callout"><strong>Portfolio boundary</strong>Detailed geometry, loads, material allowables, analysis results and internal programme decisions remain confidential. The schematic above is representative and does not reproduce programme data.</div>
+          </section>
+
+          <section class="content-section reveal" id="contribution">
+            <div class="section-kicker"><span>02</span>My Contribution</div>
+            <h2>Component redesign backed by topology analysis and clear manufacturing proposals.</h2>
+            <div class="responsibility-list">
+              <div class="responsibility"><div class="num">01</div><div><h3>Requirements &amp; Constraint Mapping</h3><p>Evaluated existing landing gear models and assembly constraints, establishing strict maximum stress thresholds and mass reduction targets based on the provided details and aerospace material catalogue.</p></div></div>
+              <div class="responsibility"><div class="num">02</div><div><h3>CAD Remodeling &amp; Topology Setup</h3><p>Collaborated closely with my supervisor to identify specific components for re-engineering, locally recreating baseline CAD models in Siemens NX to prepare the design space for topology optimization.</p></div></div>
+              <div class="responsibility"><div class="num">03</div><div><h3>Verification &amp; CAM Simulation</h3><p>Validated the optimized geometries against our set targets through continuous supervisory review, developed CAM simulations to model and evaluate viable manufacturing pathways.</p></div></div>
+              <div class="responsibility"><div class="num">04</div><div><h3>Engineering Proposals &amp; Documentation</h3><p>Delivered final CAD models and detailed engineering drawings with assembly instructions, provided technical presentation on proposed production pathway backed by the simulated CAM files.</p></div></div>
+            </div>
+          </section>
+
+          <section class="content-section reveal" id="approach">
+            <div class="section-kicker"><span>03</span>Engineering workflow</div>
+            <h2>Closing the loop between definition, optimization and verification.</h2>
+            <div class="workflow">
+              <div class="step"><h3>Define Boundaries</h3><p>Translate localized installation space and performance targets into strict, finalized engineering goals.</p></div>
+              <div class="step"><h3>Optimize Geometry</h3><p>Drive mass reduction for selected components through iterative topology optimization in Siemens NX.</p></div>
+              <div class="step"><h3>Verify &amp; Review</h3><p>Validate the optimized structural response against stress limits and refine the geometry through continuous supervisor feedback.</p></div>
+              <div class="step"><h3>Document &amp; Proposal</h3><p>Lock the final CAD models, generate detailed technical drawings, and deliver a CAM-validated production proposal.</p></div>
+            </div>
+          </section>
+
+          <section class="content-section reveal" id="team">
+            <div class="section-kicker"><span>04</span>Team &amp; contributors</div>
+            <h2>Work delivered inside a larger aircraft-development organisation.</h2>
+            <div class="people">
+              <div class="person"><span class="person-label">Structural design</span><h3>Muhammad Usama Tariq</h3><p>Component CAD, GD&amp;T drawings, production pathway support &amp; manufacturing coordination.</p></div>
+              <div class="person"><span class="person-label">Engineering organisation</span><h3>Turkish Aerospace Industries</h3><p>Programme leadership, aircraft systems, stress, materials, configuration and design-release functions.</p></div>
+              <div class="person"><span class="person-label">Production interface</span><h3>Manufacturing &amp; Assembly Teams</h3><p>Process feedback, prototyping, composite manufacture, additive work and assembly execution.</p></div>
+            </div>
+          </section>
+
+          <section class="content-section reveal" id="results">
+            <div class="section-kicker"><span>05</span>Results</div>
+            <h2>Engineering outputs that connected analysis to manufacture.</h2>
+            <p>The work supported structural development and design verification with simulations, controlled CAD, detailed GD&amp;T documentation and production feedback. It strengthened my ability to make component-level decisions inside a tightly integrated aircraft programme.</p>
+            <div class="outcomes">
+              <div class="outcome"><div class="outcome-value">CAD</div><div class="outcome-label">Aircraft structural component definition in Siemens NX</div></div>
+              <div class="outcome"><div class="outcome-value">FEA</div><div class="outcome-label">Supervisor reviews &amp; Ansys based design verification support</div></div>
+              <div class="outcome"><div class="outcome-value">MFG</div><div class="outcome-label">Drawings &amp; Simulations</div></div>
+            </div>
+            <div class="evidence">
+              <a class="button primary" href="../assets/documents/TAI_Certificate.pdf" target="_blank" rel="noopener">View Experience Letter ↗</a>
+              <a class="button secondary" href="https://www.instagram.com/reel/Dbc6F_pN7G8/?igsi=MWZ2MTkwMHdja2Q2dA==" target="_blank" rel="noopener">Watch Public Video ↗</a>
+            </div>
+          </section>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <nav class="project-switcher" aria-label="Other projects"><div class="wrap">
+    <a class="project-link" href="baja-sae.html"><span>← Previous project</span><strong>BAJA SAE Off-Road Vehicle</strong></a>
+    <a class="project-link next" href="evtol-uavs.html"><span>Next project →</span><strong>Fixed-wing drones & UAVs</strong></a>
+  </div></nav>
+  <footer><div class="wrap foot-inner"><span>© <span data-year></span> Muhammad Usama Tariq · Saint-Étienne</span><a href="../index.html#work">Back to selected projects ↑</a></div></footer>
+  <script src="../assets/project-details.js"></script>
+</body>
+</html>
+>>>>>>> 12796d8f7f2473bebe0a8d384b9040ebbd26cfe5
