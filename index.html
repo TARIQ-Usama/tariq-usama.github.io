@@ -684,6 +684,31 @@ footer{border-top:1px solid var(--line-soft);padding:34px 0;color:var(--muted-2)
   section{padding:64px 0}
 }
 
+.btn-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  color: #0d1117; /* Dark text to match your theme */
+  padding: 10px 20px;
+  border-radius: 8px; /* Forces the standard rectangle shape instead of a pill */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+  transition: opacity 0.2s ease;
+  border: none;
+}
+
+.btn-logo img {
+  height: 18px; /* Keeps the logo scaled perfectly inline with the text */
+  width: auto;
+}
+
+.btn-logo:hover {
+  opacity: 0.85;
+}
+
+
 /* White Pill Button Styles */
 .pill-btn {
       display: inline-flex;
@@ -774,10 +799,10 @@ footer{border-top:1px solid var(--line-soft);padding:34px 0;color:var(--muted-2)
           </a>
           <a class="btn ghost" href="#contact">Contact Me</a>
           <a class="btn ghost" href="assets/documents/Muhammad_Usama_Tariq (Resume_Aug26).pdf">Download CV</a>
-          <a href="https://www.master-meta4-0.eu/" target="_blank" rel="noopener" class="pill-btn" style="margin-right: 10px;">
-          <img src="assets/meta-logo.png" alt="Polito Logo" class="pill-logo" />
-            Explore meta4.0
-          </a>
+
+            <a class="btn-logo" href="LINK_TO_META4" target="_blank" rel="noopener">
+            <img src="assets/meta-logo.png" alt="meta4.0">Explore meta4.0
+            </a>
         </div>
       </div>
 
